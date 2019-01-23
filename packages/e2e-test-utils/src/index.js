@@ -22,6 +22,7 @@ export { installPlugin } from './install-plugin';
 export { isCurrentURL } from './is-current-url';
 export { loginUser } from './login-user';
 export { observeFocusLoss } from './observe-focus-loss';
+export { observePageWarnings } from './observe-page-warnings';
 export { openDocumentSettingsSidebar } from './open-document-settings-sidebar';
 export { openPublishPanel } from './open-publish-panel';
 export { pressKeyTimes } from './press-key-times';

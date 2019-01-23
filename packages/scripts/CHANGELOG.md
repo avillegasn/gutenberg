@@ -5,6 +5,10 @@
 - Added support for `build` script ([#12837](https://github.com/WordPress/gutenberg/pull/12837))
 - Added support for `start` script ([#12837](https://github.com/WordPress/gutenberg/pull/12837))
 
+### Internal
+
+- Update `puppeteer` dependency from 1.6.1 to 1.11.0 ([#13446](https://github.com/WordPress/gutenberg/pull/13446))
+
 ## 2.5.0 (2019-01-09)
 
 ### New Features

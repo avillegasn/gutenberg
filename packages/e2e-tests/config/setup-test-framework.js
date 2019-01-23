@@ -11,6 +11,7 @@ import '@wordpress/jest-console';
 import {
 	clearLocalStorage,
 	enablePageDialogAccept,
+	observePageWarnings,
 	setBrowserViewport,
 	visitAdminPage,
 } from '@wordpress/e2e-test-utils';
@@ -151,6 +152,7 @@ beforeAll( async () => {
 	capturePageEventsForTearDown();
 	enablePageDialogAccept();
 	observeConsoleLogging();
+	observePageWarnings();
 
 	await trashExistingPosts();
 	await setupBrowser();
