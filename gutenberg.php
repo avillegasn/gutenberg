@@ -132,7 +132,7 @@ function is_gutenberg_page() {
 		return false;
 	}
 
-	if ( ! gutenberg_can_edit_post( $post ) ) {
+	if ( ! use_block_editor_for_post( $post ) ) {
 		return false;
 	}
 
@@ -315,7 +315,7 @@ function gutenberg_add_edit_link( $actions, $post ) {
 		return $actions;
 	}
 
-	if ( ! gutenberg_can_edit_post( $post ) ) {
+	if ( ! use_block_editor_for_post( $post ) ) {
 		return $actions;
 	}
 
@@ -381,7 +381,7 @@ function gutenberg_replace_default_add_new_button() {
 		<?php
 	}
 
-	if ( ! gutenberg_can_edit_post_type( $typenow ) ) {
+	if ( ! use_block_editor_for_post_type( $typenow ) ) {
 		return;
 	}
 
